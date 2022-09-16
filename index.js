@@ -1,4 +1,4 @@
-const apiKey = "RGAPI-5bcd5b9a-3b1a-4f1e-af26-e5b219d7230a";
+const apiKey = "insert API Key Here";
 let summoner = {};
 let [flex = {}, tft = {}, solo = {}] = [];
 let matchID = {};
@@ -75,7 +75,6 @@ const getPlayerData = async function (player) {
         });
 
         console.log(summoner, flex, tft, solo, matches);
-
         console.log(
           `Summoner: ${summoner.name}\nLevel: ${
             summoner.summonerLevel
